@@ -54,6 +54,18 @@ p {
 
 /* ==============Header========== */
 
+.page-header {
+    position: fixed;
+    /* Закрепляем хедер */
+    top: 0;
+    /* Отступ от верхнего края экрана */
+    left: 0;
+    z-index: 1000;
+    /* Устанавливаем высокий уровень z-index, чтобы он был поверх других элементов */
+    background-color: #ffffff;
+    width: 100%;
+}
+
 .menu {
     display: none;
 }
